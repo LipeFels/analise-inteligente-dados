@@ -1,0 +1,13 @@
+id_transacao,cliente,valor,tipo,data
+1,Ana,120.50,PIX,2026-09-01
+2,Carlos,85.00,Cartao,2026-09-01
+3,Joao,9500.00,PIX,2026-09-02
+4,Ana,210.00,Cartao,2026-09-02
+5,Mariana,95.50,PIX,2026-09-03
+6,Carlos,180.00,PIX,2026-09-03
+7,Ana,135.00,Cartao,2026-09-04
+8,Mariana,110.00,PIX,2026-09-04
+9,Joao,7800.00,Transferencia,2026-09-05
+10,Carlos,160.00,Cartao,2026-09-05
+11,Ana,140.00,PIX,2026-09-06
+12,Mariana,105.00,Cartao,2026-09-06
