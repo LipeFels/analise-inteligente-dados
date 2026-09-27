@@ -44,11 +44,11 @@ limite_iqr = q3 + (1.5 * iqr)
 # Filtra as transacoes acima do limite
 anomalias_iqr = dados[dados["valor"] > limite_iqr]
 
-print("Limite IQR:", limite_iqr)
-print("\nTransacoes fora do padrao pelo IQR:")
-print(anomalias_iqr)
-
 print("\n--- ANALISE COM IQR ---")
 print("Q1:", q1)
 print("Q3:", q3)
 print("IQR:", iqr)
+print("Limite IQR:", limite_iqr)
+
+print("\nTransacoes fora do padrao pelo IQR:")
+print(anomalias_iqr)
