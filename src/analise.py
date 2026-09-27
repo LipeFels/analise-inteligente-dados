@@ -15,3 +15,18 @@ print("Quantidade de transacoes:", quantidade)
 print("Valor medio:", media)
 print("Maior valor:", maior_valor)
 print("Menor valor:", menor_valor)
+
+# Calcula o desvio padrao
+desvio = dados["valor"].std()
+
+# Define o limite para identificar anomalias
+limite = media + (2 * desvio)
+
+# Filtra as transacoes acima do limite
+anomalias = dados[dados["valor"] > limite]
+
+print("\n--- DETECCAO DE ANOMALIAS ---")
+print("Desvio padrao:", desvio)
+print("Limite calculado:", limite)
+print("\nTransacoes fora do padrao:")
+print(anomalias)
