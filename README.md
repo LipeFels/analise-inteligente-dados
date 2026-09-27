@@ -1,14 +1,14 @@
-# 📊 Análise Inteligente de Dados
+#  Análise Inteligente de Dados
 
 Projeto desenvolvido em Python para análise de uma base fictícia de transações, com foco em organização de dados, análise estatística e identificação de valores fora do padrão.
 
-## 🎯 Objetivo
+##  Objetivo
 
 O objetivo do projeto é demonstrar como Python pode ser utilizado para automatizar etapas de análise de dados e identificar possíveis anomalias em uma base de transações.
 
 > As transações utilizadas são fictícias e uma anomalia estatística não significa necessariamente fraude.
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Python
 - Pandas
@@ -26,7 +26,7 @@ analise-inteligente-dados/
 └── README.md
 ```
 
-## 🔎 Análises realizadas
+##  Análises realizadas
 
 O programa:
 
@@ -37,7 +37,7 @@ O programa:
 - identifica valores fora do padrão usando média e desvio padrão;
 - utiliza IQR (Intervalo Interquartil) como uma segunda abordagem para detecção de anomalias.
 
-## 📈 Comparação dos métodos
+##  Comparação dos métodos
 
 No conjunto de dados utilizado, o método baseado em média e desvio padrão gerou um limite de aproximadamente **R$ 8.222,93**, identificando apenas a transação de **R$ 9.500**.
 
@@ -45,7 +45,7 @@ Ao testar o IQR, o limite calculado foi **R$ 305,625**, permitindo identificar a
 
 Esse teste demonstra como valores extremos podem influenciar a média e o desvio padrão e por que diferentes métodos estatísticos devem ser avaliados.
 
-## ▶️ Como executar
+##  Como executar
 
 Instale as dependências:
 
@@ -59,7 +59,7 @@ Execute o projeto a partir da raiz:
 python src/analise.py
 ```
 
-## 🧠 Aprendizados
+##  Aprendizados
 
 O projeto permitiu praticar:
 
