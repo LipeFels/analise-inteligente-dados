@@ -30,3 +30,15 @@ print("Desvio padrao:", desvio)
 print("Limite calculado:", limite)
 print("\nTransacoes fora do padrao:")
 print(anomalias)
+
+# Calcula os quartis
+q1 = dados["valor"].quantile(0.25)
+q3 = dados["valor"].quantile(0.75)
+
+# Calcula o IQR
+iqr = q3 - q1
+
+print("\n--- ANALISE COM IQR ---")
+print("Q1:", q1)
+print("Q3:", q3)
+print("IQR:", iqr)
